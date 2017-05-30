@@ -1,0 +1,17 @@
+import { createTypes } from 'reduxsauce';
+
+export default createTypes(`
+  PUSH_NEW_ROUTE
+  REPLACE_ROUTE
+  REPLACE_OR_PUSH_ROUTE
+  POP_ROUTE
+  POP_TO_ROUTE
+
+  OPEN_DRAWER
+  CLOSE_DRAWER
+
+  SET_SPINNER_VISIBLE
+  SET_CURRENT_LOCATION
+  SET_SELECTED_LOCATION
+  SET_LOCATIONS
+`);
